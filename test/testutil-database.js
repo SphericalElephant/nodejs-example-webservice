@@ -13,7 +13,7 @@ TestUtilDatabase.tearDownDb = function (done) {
 };
 
 TestUtilDatabase.connect = function (done) {
-    mongoose.connect('mongodb://localhost/webserviceexample', done);
+    mongoose.connect('mongodb://localhost/webserviceexampletest', done);
 };
 
 TestUtilDatabase.disconnect = function (done) {
