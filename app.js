@@ -4,11 +4,7 @@ const port = 8080;
 
 const express = require('express'), // require express module (global)
     bodyParser = require('body-parser'), // require bodyparser module (required for JSON parsing)
-    mongoose = require('mongoose'), // mongodb framework
     app = express();
-
-// connect to mongodb
-mongoose.connect('mongodb://localhost/webserviceexample');
 
 // attaching parser to express instance (middleware)
 // express uses middlewares sequentially, so this is the
